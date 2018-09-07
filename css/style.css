@@ -1,0 +1,11 @@
+body {
+    font-family:"futura";
+    color: white;
+    background-image: url("../img/109784.jpg");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: fixed;
+    background-size: cover;
+}
