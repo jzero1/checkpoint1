@@ -9,3 +9,8 @@ body {
     background-position: fixed;
     background-size: cover;
 }
+
+h1 {
+    font-size: 100px;
+    
+}
