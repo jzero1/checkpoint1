@@ -1,23 +1,31 @@
-/*body {
-    font-family:"futura";
-    color: white;
-    background-image: url("../img/109784.jpg");
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-position: fixed;
-    background-size: cover;
+
+nav .menu ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+nav .menu {
+  float: center;
+}
+
+nav .menu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav .menu a:hover {
+  background-color: whitesmoke;
 }
 
 
-h1 {
-    font-size: 100px;
-    
-}*/
-
 body {
-    background: #333;
+    background: white;
   }
   .video-container {
     position: relative;
@@ -35,21 +43,87 @@ body {
     align-items: center;
     justify-content: center;
   }
-  h1 {
+  .videotext{
     color: white;
     font-family: 'Nobile', sans-serif;
-    font-size: 9vw;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
     text-align: center;
   }
   
+
+
   main {
     margin: 0 auto;
     width: 80%;
   }
   
   p {
-    color: white;
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     line-height: 1.7rem;
+  }
+
+  .art1syle {
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .virtual {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 75%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:auto;
+    width: 75%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(222, 229, 231);
+  }
+  
+  .virtual:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+
+  /* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: whitesmoke;
+  margin-top: 5px;
+  color: black;
   }
