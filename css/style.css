@@ -1,14 +1,12 @@
 
-nav .menu ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: whitesmoke;
-}
+/* Navigation Menu for webpage  */
 nav .menu {
-  float: center;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  position: center;
+  top: 0;
+  width: 100%;
 }
 
 nav .menu a {
@@ -23,12 +21,14 @@ nav .menu a:hover {
   background-color: whitesmoke;
 }
 
-
+/* Section contains most the text for style and format  */
 body {
     background: white;
+    
   }
   .video-container {
     position: relative;
+    
   }
   video {
     height: auto;
@@ -91,6 +91,7 @@ body {
     height: 100%;
   }
   
+  /* Text overlay for pics  */
   .overlay {
     position: absolute;
     top: 0;
@@ -104,10 +105,12 @@ body {
     background-color: rgb(222, 229, 231);
   }
   
+  /* Overlay for pics  */
   .virtual:hover .overlay {
     opacity: 1;
   }
   
+  /* format Text over pics  */
   .text {
     color: white;
     font-size: 20px;
@@ -127,3 +130,48 @@ body {
   margin-top: 5px;
   color: black;
   }
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Google */
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/* rss */
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
